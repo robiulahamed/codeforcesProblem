@@ -1,0 +1,2 @@
+all funcition are similar
+
