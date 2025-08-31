@@ -4,6 +4,42 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
+    
+    int t;
+    cin>>t;
+     
+    while(t--){
+        
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    int ac=c-a;
+    int bd = d-b;
+    if(max(a,b)<=min(a,b)*2+2 && max(ac,bd)<<min(ac,bd)*2+2 )
+    {
+        cout<<"YES"<<endl;
+    }
+    else cout<<"NO"<<endl;
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
     int t;
     cin >> t;
@@ -38,3 +74,4 @@ int main() {
     }
     return 0;
 }
+
